@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
     features = {"src/test/resources/features"},
     glue = "StepDef",
     plugin = {"json:target/cucumber-reports/Cucumber.json"},
-    tags = "@CrossBrowser"
+    tags = "@Parallel"
 )
 public class TestRunner {
 
