@@ -11,6 +11,8 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <cucumber.version>6.10.4</cucumber.version>
+        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
 
     <dependencies>
@@ -61,7 +63,7 @@
                         <browser>chrome</browser>
                     </systemPropertyVariables>
                     <includes>
-                        <include>CucumberTestRunner.class</include>
+                        <include>TestRunner.class</include>
                     </includes>
                 </configuration>
             </plugin>
